@@ -6,7 +6,7 @@ module.exports = {
   entry: "./src/entry.jsx",
 
   output: {
-    filename: "app.js",
+    filename: "ba.js",
     path: __dirname + "/build",
     publicPath: '/'
   },
