@@ -1,0 +1,5 @@
+node_modules
+lib/content
+build
+*.mp4
+package-lock.json

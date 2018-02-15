@@ -1,0 +1,61 @@
+$navbar-text-color: white;
+$navbar-highlight-color: rgb(235, 170, 255);
+
+html{
+  font-size: 16px;
+}
+
+
+
+.navbar-light{
+  .nav-link-highlight{
+    color: $navbar-highlight-color
+  }
+  .navbar-nav{
+    .nav-link{
+      color: $navbar-text-color;
+      text-transform: uppercase;
+      font-size: 2rem;
+    }
+    .nav-link:hover{
+      color: $navbar-highlight-color
+    }
+  }
+  
+  .navbar-toggler{
+    color: $navbar-text-color !important;
+  }
+  
+}
+
+.video-background, .image-background, .color-background{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1000;
+}
+
+
+.video-grid{
+  position: relative;
+
+  overflow: hidden;
+  position: relative;
+  .video-grid-video{
+    height: 100%;
+    position: absolute;
+  }
+  .grid-container{
+    width: 25%;
+    height: 30vh;
+    overflow: hidden;
+    display: inline-block;
+  }
+}
+
+
+

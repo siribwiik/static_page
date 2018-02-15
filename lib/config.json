@@ -1,0 +1,40 @@
+{
+  "header": {
+    "items": [
+      {
+        "displayName": "Image",
+        "href": "",
+        "component": "Index",
+        "props": {
+          "background": {
+            "type": "image",
+            "reference": "https://scontent.farn2-1.fna.fbcdn.net/v/t31.0-8/24172733_1994310457519416_1007777014823256175_o.jpg?oh=3e1cc3285fa4308179def160b0f377a1&oe=5B25886A"
+          }
+        }
+      },
+      {
+        "displayName": "Color",
+        "href": "color",
+        "component": "Index",
+        "props": {
+          "background": {
+            "type": "color",
+            "reference": "#b05d6f"
+          }
+        }
+      },
+      {
+        "displayName": "video",
+        "href": "video",
+        "component": "Index",
+        "props": {
+          "background": {
+            "type": "video",
+            "reference": "https://www.videvo.net/videvo_files/converted/2013_07/preview/hd0047.mov21194.webm"
+          }
+        }
+      }
+    ]
+  },
+  "textContent": "text.json"
+}
