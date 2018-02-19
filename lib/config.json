@@ -1,36 +1,63 @@
 {
   "header": {
+    "props": {
+      "alignment": "center"
+    },
     "items": [
       {
-        "displayName": "Image",
+        "displayName": "Home",
         "href": "",
         "component": "Index",
         "props": {
           "background": {
-            "type": "image",
-            "reference": "https://scontent.farn2-1.fna.fbcdn.net/v/t31.0-8/24172733_1994310457519416_1007777014823256175_o.jpg?oh=3e1cc3285fa4308179def160b0f377a1&oe=5B25886A"
+            "type": "webcam",
+            "reference": "",
+            "fallback": {
+              "type": "image",
+              "reference": "http://siribertlingwiik.com/images/background.jpg"
+            }
           }
         }
       },
       {
-        "displayName": "Color",
-        "href": "color",
-        "component": "Index",
+        "displayName": "Projects",
+        "href": "projects",
+        "component": "Projects",
+        "props": {
+          "background": {
+            "type": "image",
+            "reference": "http://siribertlingwiik.com/images/background.jpg"
+          }
+        }
+      },
+      {
+        "displayName": "About",
+        "href": "about",
+        "component": "About",
+        "props": {
+          "background": {
+            "type": "image",
+            "reference": "http://siribertlingwiik.com/images/background.jpg"
+          }
+        }
+      },
+      {
+        "href":"about/cv",
+        "component": "Cv",
         "props": {
           "background": {
             "type": "color",
-            "reference": "#b05d6f"
+            "reference": "#a56c00"
           }
         }
       },
       {
-        "displayName": "video",
-        "href": "video",
-        "component": "Index",
+        "href": "project/:id",
+        "component": "Project",
         "props": {
           "background": {
-            "type": "video",
-            "reference": "https://www.videvo.net/videvo_files/converted/2013_07/preview/hd0047.mov21194.webm"
+            "type": "image",
+            "reference": "http://siribertlingwiik.com/images/background.jpg"
           }
         }
       }

@@ -1,9 +1,55 @@
 {
-  "projects": {
-    "proj1": {
-      "title": "dsajkdasjdas",
-      "text": "sjdasjadsldsakjl"
+  "projects": [
+    {
+      "name": "crisis",
+      "section": "solo",
+      "title": "ARE WE ALWAYS IN CRISIS?",
+      "type": "One-to-one video installation",
+      "year": "2016",
+      "text": [
+        "This video is site-specific and the audience is invited into the place where the video was recorded.",
+        "The focus in the installation is the audiences encounter with the room, the video of the artist and the isolated sound part. It is important that the audience is given the opportunity to be alone with the work and thereby its own experience it all.",
+        "Undrar var som händer om jag lägger till ännu mer text",
+        "ochKanske Lite till?",
+        "hahaha vad kul!"
+      ],
+      "images": ["http://siribertlingwiik.com/images/frontcrisis.jpg"]
+    },
+    {
+      "name": "inthemeantime",
+      "title": "IN THE MEANTIME",
+      "section": "solo",
+      "year": "2016",
+      "text": ["test test test ", "more test"],
+      "images": ["http://siribertlingwiik.com/images/frontmeantime.jpg", "http://siribertlingwiik.com/images/alltjagminns4.jpg"]
+    },
+    {
+      "name": "lastprivatespace",
+      "title": "DET SISTA EGNA RUMMET?",
+      "section": "solo",
+      "year": "2016",
+      "text": ["test test test ", "more test"],
+      "images": ["http://siribertlingwiik.com/images/fronttoa.jpg", "http://siribertlingwiik.com/images/alltjagminns4.jpg"]
+    },
+    {
+      "name": "resort",
+      "title": "Resort",
+      "section": "solo",
+      "year": "2016",
+      "text": ["test test test ", "more test"],
+      "images": ["http://siribertlingwiik.com/images/resortfront.jpg", "http://siribertlingwiik.com/images/alltjagminns4.jpg"]
+    },
+    {
+      "name": "alliremember",
+      "title": "ALLT JAG MINNS HANDLAR OM DIG",
+      "type": "Exhibition with video, text, letters, performance, pictures.",
+      "section": "collabs",
+      "year": "2017",
+      "text": [
+        "Collaboration with Elise Alexandersson*. We were exploring the theme: INTIMACY. It was showed during a weekend, and it took form as an exhibition with multiple mediaformats.",
+        "We invited the audience to join us in a room filled with memories, intimacy and sex. We offered them an opportunity to read letters, get stories whispered right into ones ears, eavesdrop on relations and watch intimate videos."
+      ],
+      "images": ["http://siribertlingwiik.com/images/1allt.JPG", "http://siribertlingwiik.com/images/alltjagminns4.jpg"]
     }
-  },
-  "bio": "dasjsadhdjask"
+  ]
 }

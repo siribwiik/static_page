@@ -7,7 +7,9 @@ export default class BaseComponent extends React.Component {
   constructor(name) {
     super()
     name: name;
-    this.state = {};
+    this.state = {
+      textContent: {}
+    };
   }
 
   getProps() {
@@ -25,16 +27,14 @@ export default class BaseComponent extends React.Component {
   getBackGround() {
     const props = this.getProps();
     if(props) {
-      console.log(props)
-      return <Background reference={props.background.reference} type={props.background.type}/>
+      return <Background fallback={props.background.fallback} reference={props.background.reference} type={props.background.type}/>
     }
   }
 
   componentWillMount() {
     axios.get("/lib/config.json").then((res) => {
-      this.setState(res.data)
       axios.get("/lib/" + res.data.textContent).then((textContent) => {
-        this.setState(Object.assign(this.state, {textContent: textContent.data}))
+        this.setState(Object.assign(res.data, {textContent: textContent.data}))
       })
     });
   }
