@@ -7,10 +7,13 @@ export default class Header extends React.Component {
   }
 
   render () {
+    const props = document.store;
+    const backgroundColor = this.props.props ? this.props.props.backgroundColor : "none";
     const items = this.props.items || [];
-    const headerClass = this.props.class;
+    const headerClass = this.props.props ? this.props.props.alignment : "left";
+    console.log("header", props)
     return (
-      <nav className="navbar navbar-expand-lg navbar-light  navbar-dark">
+      <nav style={{backgroundColor: backgroundColor}} className="navbar navbar-expand-lg navbar-light  navbar-dark">
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="lightToggle navbar-toggler-icon"></span>
       </button>

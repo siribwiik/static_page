@@ -35,6 +35,7 @@ export default class BaseComponent extends React.Component {
     axios.get("/lib/config.json").then((res) => {
       axios.get("/lib/" + res.data.textContent).then((textContent) => {
         this.setState(Object.assign(res.data, {textContent: textContent.data}))
+        document.store = this.state;
       })
     });
   }

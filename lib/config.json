@@ -1,7 +1,8 @@
 {
   "header": {
     "props": {
-      "alignment": "center"
+      "alignment": "center",
+      "backgroundColor": "none"
     },
     "items": [
       {

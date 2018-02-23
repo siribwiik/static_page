@@ -14,6 +14,7 @@ class App extends BaseComponent {
 
   constructor() {
     super();
+    document.store = {textContent : null};
     this.state = {
       header: {
         items: []
@@ -31,14 +32,13 @@ class App extends BaseComponent {
   }
 
   render () {
-    const headerItems = this.state.header.items || [];
+    const headerProps = this.state.header || {};
     const routes = this.state.header.routes || [];
-    const headerClass = this.state.header.props ? this.state.header.props.alignment : "";
     return(
       <div>
-        <Header items={headerItems} class={headerClass} />
+        <Header {...headerProps} />
         <div className="container" id="content">
-          {headerItems.map(this.getRoutes)}
+          {headerProps.items.map(this.getRoutes)}
         </div>
       </div>
     );
