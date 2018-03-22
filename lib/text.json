@@ -53,20 +53,22 @@
       "images": ["http://siribertlingwiik.com/images/1allt.JPG", "http://siribertlingwiik.com/images/alltjagminns4.jpg"]
     }
   ],
-  "about": {
-    "title": "Siri Bertling Wiik",
-    "secondTitle": "ARTIST/ACTOR/PERFORMER/WRITER",
-    "text": [
-      "SIRI BERTLING WIIK (1991) is an artist that is mainly working with collective performing arts, video, performance, installation and text.",
-      "Currently based in Bergen, Norway for BA-studies at the Bergen Art Academy 2016-2019.",
-      "Siri has a background with collective work within flat organizations with focus on creative processes, self-organized work within art projects and operating different projects on a bureaucratic level.",
-      "For now Siri is working in Sweden and Norway with different projects and constellations." 
-    ],
-    "image": "http://siribertlingwiik.com/images/about.jpg",
-    "contactDetails": {
-      "mailAddress": "mail@siribertlingwiik.com",
-      "instagram": "@ordbajseri",
-      "otherWebsite": "rymdstationen.com"
+  "about": [
+      {
+      "title": "Siri Bertling Wiik",
+      "secondTitle": "ARTIST/ACTOR/PERFORMER/WRITER",
+      "text": [
+        "SIRI BERTLING WIIK (1991) is an artist that is mainly working with collective performing arts, video, performance, installation and text.",
+        "Currently based in Bergen, Norway for BA-studies at the Bergen Art Academy 2016-2019.",
+        "Siri has a background with collective work within flat organizations with focus on creative processes, self-organized work within art projects and operating different projects on a bureaucratic level.",
+        "For now Siri is working in Sweden and Norway with different projects and constellations." 
+      ],
+      "image": "http://siribertlingwiik.com/images/about.jpg",
+      "contactDetails": {
+        "mailAddress": "mail@siribertlingwiik.com",
+        "instagram": "@ordbajseri",
+        "otherWebsite": "rymdstationen.com"
+      }
     }
-  }
+  ]
 }

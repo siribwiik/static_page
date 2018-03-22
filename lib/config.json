@@ -37,8 +37,8 @@
         "component": "About",
         "props": {
           "background": {
-            "type": "image",
-            "reference": "http://siribertlingwiik.com/images/background.jpg"
+            "type": "video",
+            "reference": "/lib/bunny.mp4"
           }
         }
       },

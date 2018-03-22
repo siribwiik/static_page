@@ -8,7 +8,7 @@ export default class About extends BaseComponent {
   }
 
   render () {
-    const textContent = this.state.textContent.about ? this.state.textContent.about : {text: []};
+    const textContent = this.state.textContent.about ? this.state.textContent.about[0] : {text: []};
     return (
       <div>
         {this.getBackGround()}
